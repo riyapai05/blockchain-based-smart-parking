@@ -1,0 +1,24 @@
+{
+  "name": "parking-project",
+  "version": "1.0.0",
+  "description": "Blockchain-based Smart Parking System with performance benchmarking (latency, gas, concurrency)",
+  "main": "truffle-config.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "deploy": "truffle migrate --network development",
+    "deploy:sepolia": "truffle migrate --network sepolia",
+    "test": "truffle test"
+  },
+  "author": "Riya Pai",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/contract": "^4.6.31",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "dotenv": "^17.3.1",
+    "web3": "^4.16.0"
+  },
+  "devDependencies": {
+    "truffle": "^5.11.5"
+  }
+}
