@@ -9,7 +9,7 @@ This project implements a smart parking system using Solidity and Truffle. It su
 1. Install Node.js (v18 recommended).
 
 2. Clone the repository:
-   git clone <your-repository-url>
+   git clone https://github.com/riyapai05/your-repo-name.git
    cd parking-project
 
 3. Install dependencies:
